@@ -1,0 +1,12 @@
+set backspace=indent,eol,start
+set ruler
+set number
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+let mapleader = " "
+filetype plugin indent on
+syntax on
+inoremap jk <ESC>
+vnoremap . :norm.<CR>
